@@ -1,0 +1,19 @@
+.
+├── data
+│   └── emerging_markets_ohlcv.csv
+├── img
+│   ├── adaboost_model.png
+│   ├── adaboost_model_nine_month_training_window-step6-01.png
+│   ├── adaboost_model_one_month_training_window-step6-01.png
+│   ├── adaboost_model_short_window_thirty-step6-02.png
+│   ├── strategy-returns-svc-baseline.png
+│   ├── svm_classification_report_short_window_four-step6-02.png
+│   ├── svm_model.png
+│   ├── svm_model_nine_month_training_window-step6-01.png
+│   ├── svm_model_one_month_training_window-step6-01.png
+│   └── svm_model_short_window_thirty-step6-02.png
+├── LICENSE
+├── machine_learning_trading_bot.ipynb
+├── README.md
+├── requirements.txt
+└── tree.txt
