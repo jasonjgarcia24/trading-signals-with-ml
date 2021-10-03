@@ -59,7 +59,7 @@ Multiple variations of Support Vector Classification (SVC) and Adaptive Boost Cl
 | **4** | Classifier: AdaBoostClassifier with GaussianNB base estimator<br>Short Window SMA: 4 days<br>Long Window SMA: 100 days<br>Training Window: 1 months| <img src="img/adaboost_model_one_month_training_window-step6-01.png" title="Adaptive Boosting Classification-1 Month Training Window"> | The reduced training window seems to have a significant negative impact on the AdaBoost strategy returns. |
 | **5** | Classifier: SVC<br>Short Window SMA: 4 days<br>Long Window SMA: 100 days<br>Training Window: 9 month | <img src="img/svm_model_nine_month_training_window-step6-01.png" title="Support Vector Classification-9 Month Training Window"> | The increased training window seems to have a small negative impact on the SVC strategy returns. |
 | **6** | Classifier: AdaBoostClassifier with GaussianNB base estimator<br>Short Window SMA: 4 days<br>Long Window SMA: 100 days<br>Training Window: 9 month | <img src="img/adaboost_model_nine_month_training_window-step6-01.png" title="Adaptive Boosting Classification-9 Month Training Window"> | The increased training window seems to have a significant negative impact on the AdaBoost strategy returns. |
-| **7** | Classifier: SVC<br>Short Window SMA: 30 days<br>Long Window SMA: 100 days<br>Training Window: 3 month | <img src="img/svm_model_short_window_thirty-step6-02.png" title="Support Vector Classification-30 Days Short SMA"> | The increased short window SMA seems to have a significant impact on the SVC strategy returns. This may be due to overfitting of our data given the classification report below:<br><br><img src="img/svm_classification_report_short_window_four-step6-02.png"> |
+| **7** | Classifier: SVC<br>Short Window SMA: 30 days<br>Long Window SMA: 100 days<br>Training Window: 3 month | <img src="img/svm_model_short_window_thirty-step6-02.png" title="Support Vector Classification-30 Days Short SMA"> | The increased short window SMA seems to have a significant impact on the SVC strategy returns. This may be due to overfitting of our data. |
 | **8** | Classifier: AdaBoosterClassifier with GaussianNB base estimator<br>Short Window SMA: 30 days<br>Long Window SMA: 100 days<br>Training Window: 3 month | <img src="img/adaboost_model_short_window_thirty-step6-02.png" title="Support Vector Classification-30 Days Short SMA"> | The increased short window SMA seems to have a very good impact on the AdaBoost strategy returns, however this is not the best thus far. |<br>
 
 ***
@@ -72,7 +72,7 @@ Currently just me :)<br>
 
 ***
 ## License<a id="License">
-Each file included in this repository is licensed under the <a href="https://github.com/jasonjgarcia24/vc-applicant-classifier/blob/53dc9a508bf8f1a1b34fc2a086ef9d2e3a293d8b/LICENSE" title="LICENSE">MIT License.</a>
+Each file included in this repository is licensed under the <a href="https://github.com/jasonjgarcia24/trading-signals-with-ml/blob/53af4dfded97e34abf0726e01e7a4c92a4c4704b/LICENSE" title="LICENSE">MIT License.</a>
 
 ***
 [Top of Page](#Top-of-Page)<br>
